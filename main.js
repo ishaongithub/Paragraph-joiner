@@ -6,7 +6,7 @@ function para_1()
 
     for (var j = 1; j <= 6; j++)
     {
-        var para_1 = document.getElementById("input_"+j).value;
+        var para_1 = document.getElementById("div_1_input_"+j).value;
         console.log(para_1);
        para_1_array.push(para_1);
     }
@@ -36,7 +36,7 @@ function para_2()
 
     for (var j = 1; j <= 6; j++)
     {
-        var para_2 = document.getElementById("input_"+j).value;
+        var para_2 = document.getElementById("div_2_input_"+j).value;
         console.log(para_2);
        para_2_array.push(para_2);
     }
